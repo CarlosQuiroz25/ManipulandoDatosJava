@@ -9,6 +9,7 @@ public class Main {
         double salario = 3500.00;
         String nombre = "Juan Perez";
         boolean esMayorDeEdad = true;
+    
 
         
     }
