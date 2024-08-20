@@ -18,11 +18,12 @@ public class Main {
 
         System.out.println(nombre.toString()); //se imprime en consola la variable nombre mediante el método toString()
 
-        int entero = (int) salario; //se convierte la variable salario a un valor entero utilizando el casteo
-        System.out.println(entero);
+        int salarioInt = (int) salario; //se convierte la variable salario a un valor entero utilizando el casteo
+        System.out.println(salarioInt);
 
         long newCodigoPostal = (short) codigoPostal; //se convierte la variable codigoPostal a un valor long mediante el casteo
         System.out.println(newCodigoPostal);
+        //En el caso del salario pasa de ser un valor tipo float "3500.00" a un tipo entero "3500" eliminando sus decimales
 
         String numeroStr = "12345678"; 
         int numeroInt = Integer.parseInt(numeroStr); //se convierte la variable numeroStr de tipo String a un valor entero mediante el parseo con el método parseInt
